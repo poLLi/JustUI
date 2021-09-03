@@ -1,0 +1,15 @@
+@use '../variables' as var;
+
+// ------------------------------------------------------
+// Height & Width
+@each $key, $value in var.$heights {
+    .h-#{$key} {
+        height: $value;
+    }
+}
+
+@each $key, $value in var.$widths {
+    .w-#{$key} {
+        width: $value;
+    }
+}

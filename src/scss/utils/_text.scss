@@ -1,0 +1,15 @@
+@use '../variables' as var;
+
+// ------------------------------------------------------
+// Text
+@each $key, $value in var.$colors {
+    .text-#{$key} {
+        color: $value;
+    }
+}
+
+@each $key, $value in var.$theme-colors {
+    .text-#{$key} {
+        color: $value;
+    }
+}

@@ -1,0 +1,45 @@
+// ------------------------------------------------------
+// Colors
+$white: #fff;
+$black: #000;
+
+$primary: #ff7043;
+$secondary: #5c6166;
+$success: #27ae60;
+$info: #1abc9c;
+$warning: #e67e22;
+$danger: #e74c3c;
+$light: #ecf0f1;
+$dark: #2c3e50;
+
+$blue: #3498db;
+$purple: #9b59b6;
+$pink: #ffc0cb;
+$red: #c0392b;
+$yellow: #f1c40f;
+$orange: #f39c12;
+$green: #2ecc71;
+$cyan: #16a085;
+
+$colors: (
+    'red': $red,
+    'blue': $blue,
+    'pink': $pink,
+    'green': $green,
+    'purple': $purple,
+    'orange': $orange,
+    'yellow': $yellow,
+    'cyan': $cyan,
+    'white': $white,
+    'black': $black
+);
+
+$theme-colors: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'info': $info,
+    'warning': $warning,
+    'danger': $danger,
+    'light': $light,
+    'dark': $dark
+);
