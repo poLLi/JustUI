@@ -1,7 +1,7 @@
 @use '../variables' as var;
 
 // ------------------------------------------------------
-// Text
+// Text Colors
 @each $key, $value in var.$colors {
     .text-#{$key} {
         color: $value;
@@ -12,4 +12,34 @@
     .text-#{$key} {
         color: $value;
     }
+}
+
+// ------------------------------------------------------
+// Font Variants
+.text-mono {
+    font-family: var.$font-family-mono;
+}
+
+// ------------------------------------------------------
+// Text align
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+// ------------------------------------------------------
+// Text deco
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-line-through {
+    text-decoration: line-through;
 }
