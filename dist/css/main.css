@@ -51,6 +51,22 @@ ul {
   background-color: #5e6368;
 }
 
+.btn-success {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-weight: 700;
+  background-color: #27ae60;
+  color: #ecf0f1;
+}
+.btn-success:hover {
+  background-color: #28b162;
+}
+
 .btn-info {
   display: inline-block;
   cursor: pointer;
@@ -164,6 +180,24 @@ ul {
 }
 .btn-outline-secondary:hover {
   background-color: #5c6166;
+  color: #ecf0f1;
+}
+
+.btn-outline-success {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-weight: 700;
+  background-color: transparent;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+}
+.btn-outline-success:hover {
+  background-color: #27ae60;
   color: #ecf0f1;
 }
 
@@ -305,6 +339,10 @@ ul {
   color: #5c6166;
 }
 
+.text-success {
+  color: #27ae60;
+}
+
 .text-info {
   color: #1abc9c;
 }
@@ -395,6 +433,10 @@ ul {
 
 .bg-secondary {
   background-color: #5c6166;
+}
+
+.bg-success {
+  background-color: #27ae60;
 }
 
 .bg-info {
