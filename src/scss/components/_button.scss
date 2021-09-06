@@ -7,5 +7,24 @@
     .btn-#{$key} {
         @include mix.btn;
         background-color: $value;
+        color: var.$body-color;
+
+        &:hover {
+            background-color: lighten($value, 0.75);
+        }
+    }
+}
+
+@each $key, $value in var.$theme-colors {
+    .btn-outline-#{$key} {
+        @include mix.btn;
+        background-color: transparent;
+        color: $value;
+        border: 1px solid $value;
+
+        &:hover {
+            background-color: $value;
+            color: var.$body-color;
+        }
     }
 }

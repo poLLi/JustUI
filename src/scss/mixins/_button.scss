@@ -3,10 +3,16 @@
 // ------------------------------------------------------
 // Mixin - Button
 @mixin btn {
-    display: block;
+    display: inline-block;
     cursor: pointer;
     padding: 1rem 2rem;
     margin: 1rem 2rem;
     text-align: center;
     text-decoration: none;
+    border: none;
+    font-weight: var.$font-weight-bold;
+
+    @if var.$rounded {
+        border-radius: 10px;
+    }
 }
