@@ -1,0 +1,46 @@
+@use 'colors' as *;
+
+// ------------------------------------------------------
+// Body
+$body-bg: #222831;
+$body-color: #ececec;
+
+// ------------------------------------------------------
+// Font
+$font-family-base: 'Poppins', sans-serif;
+$font-family-mono: monospace;
+
+$font-size-base: 1rem;
+$font-size-md: $font-size-base * 0.75;
+$font-size-lg: $font-size-base * 1.25;
+$font-size-xl: $font-size-base * 1.5;
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-base: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+$line-hight-base: 1.5;
+
+// ------------------------------------------------------
+// Spacing Variables
+$spacer-base: 1rem;
+$margin-base: 1rem;
+$padding-base: 1rem;
+
+// ------------------------------------------------------
+// Button Variables
+$button-padding: 1rem 2rem;
+$button-margin: 0 1rem;
+$button-border: none;
+$button-border-radius: 1rem;
+$button-font-weight: $font-weight-bold;
+
+// ------------------------------------------------------
+// Shadow Variables
+$shadow-base: rgba(black, 0.15) 0px 0.5rem 1rem;
+
+// ------------------------------------------------------
+// Transition Variables
+$transistion-all: 100ms all ease-in-out;

@@ -3,13 +3,16 @@
 @use 'reset';
 
 // ------------------------------------------------------
+// Layout
+@use 'layout/base';
+
+// ------------------------------------------------------
 // components
 @use 'components/button';
+@use 'components/card';
 
 // ------------------------------------------------------
 // utilitys
+@use 'utils/utilities';
 @use 'utils/text';
 @use 'utils/background';
-@use 'utils/opacity';
-@use 'utils/size';
-@use 'utils/spacing';

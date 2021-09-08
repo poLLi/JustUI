@@ -6,11 +6,13 @@
 @each $key, $value in var.$theme-colors {
     .btn-#{$key} {
         @include mix.btn;
+        transition: var.$transistion-all;
+
         background-color: $value;
         color: var.$body-color;
 
         &:hover {
-            background-color: lighten($value, 0.75);
+            background-color: lighten($value, 8);
         }
     }
 }
@@ -18,6 +20,8 @@
 @each $key, $value in var.$theme-colors {
     .btn-outline-#{$key} {
         @include mix.btn;
+        transition: var.$transistion-all;
+
         background-color: transparent;
         color: $value;
         border: 1px solid $value;

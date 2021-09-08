@@ -1,9 +1,0 @@
-@use '../variables' as var;
-
-// ------------------------------------------------------
-// Opacity
-@each $key, $value in var.$opacitys {
-    .opacity-#{$key} {
-        opacity: $value;
-    }
-}

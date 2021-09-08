@@ -1,0 +1,18 @@
+@use '../variables' as var;
+
+// ----------------------------------------------
+// Reset
+
+body {
+    font-family: var.$font-family-base;
+    font-size: var.$font-size-base;
+    background-color: var.$body-bg;
+    color: var.$body-color;
+    line-height: var.$line-hight-base;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}

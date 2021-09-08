@@ -1,0 +1,29 @@
+@use '../variables' as var;
+
+// ------------------------------------------------------
+// Card
+.card {
+    padding: var.$padding-base;
+    background-color: var.$dark;
+    color: var.$body-color;
+    box-shadow: var.$shadow-base;
+
+    @if var.$rounded {
+        border-radius: var.$button-border-radius;
+    }
+
+    .card-title {
+        font-size: var.$font-size-lg;
+        font-weight: var.$font-weight-bold;
+        margin-bottom: var.$margin-base;
+    }
+
+    .card-body {
+        margin-bottom: var.$margin-base;
+    }
+
+    .card-footer {
+        border-top: 1px solid var.$body-color;
+        padding-top: var.$padding-base;
+    }
+}

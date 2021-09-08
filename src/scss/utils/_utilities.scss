@@ -1,0 +1,20 @@
+@use '../variables' as var;
+
+// ------------------------------------------------------
+// Utilities
+@each $prop, $map in var.$utilities {
+    $prefix: map-get($map, 'prefix');
+    $values: map-get($map, 'values');
+
+    @each $key, $value in $values {
+        @if $key == 'default' {
+            .#{$prefix} {
+                #{$prop}: $value !important;
+            }
+        } @else {
+            .#{$prefix}-#{$key} {
+                #{$prop}: $value !important;
+            }
+        }
+    }
+}

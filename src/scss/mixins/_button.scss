@@ -5,14 +5,14 @@
 @mixin btn {
     display: inline-block;
     cursor: pointer;
-    padding: 1rem 2rem;
-    margin: 1rem 2rem;
+    padding: var.$button-padding;
+    margin: var.$button-margin;
     text-align: center;
     text-decoration: none;
-    border: none;
-    font-weight: var.$font-weight-bold;
+    border: var.$button-border;
+    font-weight: var.$button-font-weight;
 
     @if var.$rounded {
-        border-radius: 10px;
+        border-radius: var.$button-border-radius;
     }
 }
