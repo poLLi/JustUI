@@ -1,0 +1,16 @@
+@use 'sass:math';
+@use '../variables' as var;
+
+// ----------------------------------------------
+// Breakpoint System
+
+@mixin responsive($bp) {
+    @if map-has-key(var.$breakpoints, $bp) {
+        @media (min-width: map-get(var.$breakpoints, $bp)) {
+            @content;
+        }
+    } @else {
+        @warn "No value could be found from `#{$bp}`. "
+            + "Available breakpoints: #{map-keys(var.$breakpoints)}.";
+    }
+}

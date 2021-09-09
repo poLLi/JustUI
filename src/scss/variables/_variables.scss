@@ -30,6 +30,17 @@ $margin-base: 1rem;
 $padding-base: 1rem;
 
 // ------------------------------------------------------
+// Breakpoionts & Layout Variables
+$columns: 12;
+$breakpoints: (
+    'xs': 0,
+    'sm': 576px,
+    'md': 768px,
+    'lg': 992px,
+    'xl': 1200px
+);
+
+// ------------------------------------------------------
 // Button Variables
 $button-padding: 1rem 2rem;
 $button-margin: 0 1rem;
