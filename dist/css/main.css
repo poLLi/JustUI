@@ -468,7 +468,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: #ff7043;
   color: #ececec;
@@ -486,7 +485,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: #5c6166;
   color: #ececec;
@@ -504,7 +502,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: #27ae60;
   color: #ececec;
@@ -522,7 +519,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: #1abc9c;
   color: #ececec;
@@ -540,7 +536,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: #e67e22;
   color: #ececec;
@@ -558,7 +553,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: #e74c3c;
   color: #ececec;
@@ -576,7 +570,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: #aaaaaa;
   color: #ececec;
@@ -594,7 +587,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: #16171a;
   color: #ececec;
@@ -612,7 +604,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: transparent;
   color: #ff7043;
@@ -632,7 +623,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: transparent;
   color: #5c6166;
@@ -652,7 +642,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: transparent;
   color: #27ae60;
@@ -672,7 +661,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: transparent;
   color: #1abc9c;
@@ -692,7 +680,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: transparent;
   color: #e67e22;
@@ -712,7 +699,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: transparent;
   color: #e74c3c;
@@ -732,7 +718,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: transparent;
   color: #aaaaaa;
@@ -752,7 +737,6 @@ body {
   text-decoration: none;
   border: none;
   font-weight: 700;
-  border-radius: 1rem;
   transition: 100ms all ease-in-out;
   background-color: transparent;
   color: #16171a;
@@ -768,7 +752,6 @@ body {
   background-color: #16171a;
   color: #ececec;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem;
-  border-radius: 1rem;
 }
 .card .card-title {
   font-size: 1.25rem;
